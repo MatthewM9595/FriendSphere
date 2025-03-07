@@ -1,2 +1,2 @@
 # FriendSphere
-A Socail Network
+A Social Network
