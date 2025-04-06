@@ -9,11 +9,26 @@
     <body>
         <menu>
             <Logo>Friend Sphere</Logo>
-            <ul>
-                <li><a href="facebook.com">Home</a></li>
-                <li><a href="google.com">Profile</a></li>
-            </ul>
+                <a href="facebook.com">Home</a>
+                <a href="google.com">Profile</a>
+                <a href="twitter.com">Friends</a>
         </menu>
-
+        <div class="container">
+            <div class="CardWelcome">
+                <h1>Welcome to Friends Sphere</h1>
+                <p>Your social network for connecting with friends.</p>
+            </div>
+            <div class="Login">
+                <h2>Login</h2>
+                <form action="login.php" method="post">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <p>Don't have an account? <a href="register.html">Register here</a></p>
+            </div>
+        </div>
     </body>
 </html>
